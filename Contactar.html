@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>EJERCICIO</title>
+    <meta name="VICTOR HEREDIA LAMUELA" content="TRABAJO VICTOR HEREDIA">
+    <meta name="date" content="12-11-2022">
+    <meta charset="utf-8" />
+    <style type="text/css">
+        @import "CSS/estilos.css";
+    </style>
+    <script type="text/javascript" src="./JS/Funciones.js">
+        window.onload = function () {
+            document.getElementById("boton").onclick = formularioContacto;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img alt="" id="logotipo" src="IMG/logo.png"></a>
+            <p id="victor">Contactar con victor </p>
+        </div>
+        <div class="ancho">
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="Contactar.html">CONTACTAR</a>
+                    </li>
+                    <li>
+                        <a href="sobre_mi.html">SOBRE MI</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <h6> Datos personales</h6><b></b>
+
+                <div>
+                    <h4>Tienes que rellenar todo el formulario</h4>
+                </div>
+                <div>
+                    <label for="nombre">Nombre </label>
+                    <input type="text" id="nombre" name="Nombre" value="" required><br>
+                    <p></p>
+                </div>
+                <div>
+                    <label for="apellido">Apellido completo </label>
+                    <input type="text" id="apellidos" name="Nombre" value="" required><br>
+                    <p></p>
+                </div>
+                <div>
+                    <div>
+                        <label for="dni">DNI o pasaporte</label>
+                        <input type="text" id="dni" name="DNI" value="DNI o Passaport" required><br>
+                        <p></p>
+                    </div>
+                    <div>
+                        <label for="fechaNace">Fecha de nacimiento</label>
+                        <input type="date" id="nacimiento" name="DNI" value="" required><br>
+                        <p></p>
+                    </div>
+                </div>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <h5> Datos de contacto </h5>
+                <p></p>
+                <div>
+                    <label for="correo">Correo electronico </label>
+                    <input type="text" id="correo" required>
+                </div>
+                <br>
+                <div>
+                    <label for="codigoPostal">Codigo Postal </label>
+                    <input type="text" id="codigoPostal" required>
+                </div>
+                <br>
+                <div>
+                    <label for="direccion">Direccion </label>
+                    <input type="text" id="direccion" required>
+                </div>
+                <br>
+                <div>
+                    <label for="poblacion">Poblacion </label>
+                    <input type="text" id="poblacion" required>
+                </div>
+            </fieldset>
+            <p></p>
+
+            <div>
+                <label for="enviar"></label>
+                <input type="button" id="boton" value="ENVIAR" onclick="formularioContacto()">
+            </div>
+
+
+        </form>
+    </main>
+    <footer>
+        <p id="nombre">Victor Heredia</p>
+    </footer>
+</body>
+
+</html>

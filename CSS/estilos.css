@@ -1,0 +1,51 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+img#logotipo { width: 210px; height: 185px; background-color: rgb(54, 53, 53);  
+    padding-left: 3px; padding-bottom: 0px;}
+#victor { float: right; padding-top: 2%; padding-right: 48%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine; font-size: 40px;}
+header { padding-bottom: 50px; position: sticky; top: 0;}
+.menu { background-image: linear-gradient( 180deg, rgb(63, 61, 61), rgb(160, 156, 156), white);
+    list-style-type: none; text-align: justify; margin: 0; padding: 0px; border: 1px solid black;}
+.menu ul li { display: inline;}
+.menu li  { font-size: 15px; padding: 30px;}
+.menu a { text-decoration:none;}
+main{ padding-bottom: 70px;}
+footer{ background-color:rgb(58, 57, 57);}
+footer div { text-align: right; padding-right: 5%;}
+form{ 
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;}
+input, select {background: white; border: #3aa12c 1px solid; border-radius: 15px;}
+:focus{color: #3aa12c ;}
+fieldset{background: rgb(204, 181, 247); border: #000000; border-radius: 20px; text-align:justify;text-indent: 3cm;}
+fieldset::first-letter {color: #000000; }
+fieldset::first-line {color: black; }
+.submit{background: red; border: #a13d2c; margin: auto;color: white }
+.submit:focus{background:orange ;}
+#nombre{position: static; margin-left:73px;}
+#apellido{position: static; margin-left: 20px;}
+#dni{position: static;margin-left:  21px; text-align: center;}
+#nacimiento{position: static;margin-left:15px; text-align: center;}
+#correo{position: static;margin-left: 18px;}
+#codigoPostal{position: static; margin-left: 48px;}
+#direccion{position: static;margin-left: 32px;}
+dl dt dd {
+    text-align: justify;
+}
+img#victor {
+    width: 125px; height: 125px;
+    float: left;
+}
+.encabezado{
+    font-family: 'sans-serif'; font-size: 30px;
+}
+
+.index{
+    font-family: 'sans-serif';
+}
+
+
+
